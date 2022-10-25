@@ -8,7 +8,15 @@ body {
 img {
     width: 100vw;
     height: auto;
-    padding: 10px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.img-aboutus {
+    width: 30vw;
+    height: 30vh;
+    padding: 20px 40px;
 }
 
 li {
@@ -22,8 +30,17 @@ a {
 
 h1,h2,h3 {
     text-align: center;
+    padding: 20px;
 }
 
+article {
+    padding: 20px 40px;
+}
 
+.about-order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 /* text-align: center; */
